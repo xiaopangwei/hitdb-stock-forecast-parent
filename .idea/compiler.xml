@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stock-enrich-job" />
+        <module name="stock-enrich-lib" />
+        <module name="stock-f2k-job" />
+        <module name="stock-f2k-lib" />
+        <module name="stock-forecast-core" />
+        <module name="stock-k2db-job" />
+        <module name="stock-k2db-lib" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="stock-enrich-job" target="1.5" />
+      <module name="stock-enrich-lib" target="1.5" />
+      <module name="stock-f2k-job" target="1.5" />
+      <module name="stock-f2k-lib" target="1.5" />
+      <module name="stock-forecast-core" target="1.5" />
+      <module name="stock-forecast-parent" target="1.5" />
+      <module name="stock-k2db-job" target="1.5" />
+      <module name="stock-k2db-lib" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
