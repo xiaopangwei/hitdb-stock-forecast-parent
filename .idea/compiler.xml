@@ -10,6 +10,7 @@
         <module name="stock-enrich-lib" />
         <module name="stock-f2k-job" />
         <module name="stock-f2k-lib" />
+        <module name="stock-forecast-algorithm" />
         <module name="stock-forecast-core" />
         <module name="stock-k2db-job" />
         <module name="stock-k2db-lib" />
@@ -20,6 +21,7 @@
       <module name="stock-enrich-lib" target="1.5" />
       <module name="stock-f2k-job" target="1.5" />
       <module name="stock-f2k-lib" target="1.5" />
+      <module name="stock-forecast-algorithm" target="1.5" />
       <module name="stock-forecast-core" target="1.5" />
       <module name="stock-forecast-parent" target="1.5" />
       <module name="stock-k2db-job" target="1.5" />

@@ -16,6 +16,7 @@
         <module>stock-k2db-lib</module>
         <module>stock-k2db-job</module>
         <module>stock-forecast-core</module>
+        <module>stock-forecast-algorithm</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/stock-enrich-lib" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stock-f2k-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stock-f2k-lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-forecast-algorithm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stock-forecast-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stock-k2db-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stock-k2db-lib" charset="UTF-8" />
