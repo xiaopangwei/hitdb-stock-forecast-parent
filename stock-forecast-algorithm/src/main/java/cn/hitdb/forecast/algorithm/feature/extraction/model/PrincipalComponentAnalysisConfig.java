@@ -1,4 +1,4 @@
-package cn.hitdb.forecast.algorithm.normalization.model;
+package cn.hitdb.forecast.algorithm.feature.extraction.model;
 
 import cn.hitdb.core.model.ml.MLConfigration;
 

@@ -1,8 +1,8 @@
-package cn.hitdb.forecast.algorithm.normalization.train;
+package cn.hitdb.forecast.algorithm.feature.extraction.model.train;
 
 
 import Jama.Matrix;
-import cn.hitdb.forecast.algorithm.normalization.model.PrincipalComponentAnalysisConfig;
+import cn.hitdb.forecast.algorithm.feature.extraction.model.PrincipalComponentAnalysisConfig;
 
 public class PCAAlgorithm {
     private PrincipalComponentAnalysisConfig config;
