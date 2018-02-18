@@ -11,7 +11,6 @@
         <module name="stock-f2k-job" />
         <module name="stock-f2k-lib" />
         <module name="stock-forecast-algorithm" />
-        <module name="stock-forecast-core" />
         <module name="stock-k2db-job" />
         <module name="stock-k2db-lib" />
       </profile>

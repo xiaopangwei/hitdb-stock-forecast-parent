@@ -2,26 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e4e8e4c-6dcf-4ad2-ae71-d066d58c13fe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/document/16S137059+黄炜+论文开题报告.doc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/document/论文.pptx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-enrich-job/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-enrich-job/stock-enrich-job.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-enrich-lib/stock-enrich-lib.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-f2k-job/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-f2k-job/stock-f2k-job.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-f2k-lib/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-f2k-lib/stock-f2k-lib.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-forecast-core/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-forecast-core/stock-forecast-core.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-forecast-parent.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-k2db-job/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-k2db-job/stock-k2db-job.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-k2db-lib/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-k2db-lib/stock-k2db-lib.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stock-forecast-parent/stock-enrich-lib/pom.xml" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/BaseMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/Configuration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/TickQuotationMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__gov_nist_math_jama_1_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/LRConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticFunctionSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticRegressionAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/PrincipalComponentAnalysisConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/SingularValueDecompositionConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/PCAAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/SVDAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/algorithm/Predictable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/BaseMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/Configuration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/QuotationTickMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/StockTickMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/TickMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureVector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/MLConfigration.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/document/opening/~$S137059+黄炜+论文开题报告.doc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/document/opening/16S137059+黄炜+论文开题报告.doc" afterPath="$PROJECT_DIR$/document/opening/16S137059+黄炜+论文开题报告.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/document/opening/论文.pptx" afterPath="$PROJECT_DIR$/document/opening/论文.pptx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-enrich-job/stock-enrich-job.iml" afterPath="$PROJECT_DIR$/stock-enrich-job/stock-enrich-job.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-enrich-lib/stock-enrich-lib.iml" afterPath="$PROJECT_DIR$/stock-enrich-lib/stock-enrich-lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml" afterPath="$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-lib/stock-f2k-lib.iml" afterPath="$PROJECT_DIR$/stock-f2k-lib/stock-f2k-lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-algorithm/pom.xml" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-algorithm/stock-forecast-algorithm.iml" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/stock-forecast-algorithm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-core/pom.xml" afterPath="$PROJECT_DIR$/stock-forecast-core/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-core/stock-forecast-core.iml" afterPath="$PROJECT_DIR$/stock-forecast-core/stock-forecast-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-parent.iml" afterPath="$PROJECT_DIR$/stock-forecast-parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-k2db-job/stock-k2db-job.iml" afterPath="$PROJECT_DIR$/stock-k2db-job/stock-k2db-job.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-k2db-lib/stock-k2db-lib.iml" afterPath="$PROJECT_DIR$/stock-k2db-lib/stock-k2db-lib.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,27 +61,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="FeatureConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2466">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="100">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LRConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/LRConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogisticRegressionAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticRegressionAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-383">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/pom.xml">
+      <file leaf-file-name="LogisticFunctionSelector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticFunctionSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeatureVector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predictable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/algorithm/Predictable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PCAAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/PCAAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingularValueDecompositionConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/SingularValueDecompositionConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVDAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/SVDAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrincipalComponentAnalysisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/PrincipalComponentAnalysisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="69" lean-forward="false" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;scope&gt;provided&lt;/scope&gt;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +194,37 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/BaseMessage.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/Configuration.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/TickQuotationMessage.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/QuotationMessage.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/TickMessage.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/StockTickMessage.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/QuotationTickMessage.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/Predictable.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/LogisticRegression.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/FeatureVector.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/Feature.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/FeatureConfig.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/FeatureVector.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticRegression.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/Predictable.java" />
         <option value="$PROJECT_DIR$/stock-forecast-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/normalization/PCA.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/PCA.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/PCA.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/TickMessage.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/MLConfigration.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/LRConfig.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureConfig.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureVector.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/predictable/Predictable.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/PrincipalComponentAnalysisConfig.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/algorithm/Predictable.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/SingularValueDecompositionConfig.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/SVDAlgorithm.java" />
+        <option value="$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticFunctionSelector.java" />
       </list>
     </option>
   </component>
@@ -102,11 +250,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="581" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -183,10 +329,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,18 +339,144 @@
             <path>
               <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
-              <item name="opening" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,15 +485,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/document/opening" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/document" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.hitdb.core.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/document/opening" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,43 +605,49 @@
       <option name="presentableId" value="Default" />
       <updated>1510930689827</updated>
       <workItem from="1510930691169" duration="3843000" />
-      <workItem from="1510966970752" duration="374000" />
+      <workItem from="1510966970752" duration="853000" />
+      <workItem from="1510991569180" duration="434000" />
+      <workItem from="1518958293918" duration="11311000" />
+      <workItem from="1518974960506" duration="2079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4217000" />
+    <option name="totallyTimeSpent" value="18520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21030043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2911302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +687,100 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/LRConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticRegressionAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4840">
+          <caret line="276" column="13" lean-forward="false" selection-start-line="276" selection-start-column="13" selection-end-line="276" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticFunctionSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/algorithm/Predictable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -422,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -430,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -438,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -446,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -454,15 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock-forecast-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,22 +828,205 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification.java" />
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/normalization.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4840">
+          <caret line="276" column="13" lean-forward="false" selection-start-line="276" selection-start-column="13" selection-end-line="276" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2466">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="-2843">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/normalization/PCA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/BaseMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/QuotationTickMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/StockTickMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/TickMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/MLConfigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticRegressionAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-383">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/PrincipalComponentAnalysisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="69" lean-forward="false" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/algorithm/Predictable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/PCAAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/model/SingularValueDecompositionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/normalization/train/SVDAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/LRConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticFunctionSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -542,7 +1083,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>stock-k2db-lib</last-edited>
+          <last-edited>stock-forecast-algorithm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
