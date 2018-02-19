@@ -22,7 +22,7 @@ public class LogisticFunctionSelector {
 
     }
 
-    private double sigmoid(double z) {
+    public double sigmoid(double z) {
         //return Math.exp(z) / (1.0 + Math.exp(z));//1
         return 1.0 / (1.0 + Math.exp(-z));//1
     }
