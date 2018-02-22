@@ -12,7 +12,7 @@ import java.nio.channels.FileChannel;
 public class TestRamdomAccessFile {
     RandomAccessFile file        = null;
     FileChannel      fileChannel = null;
-    ByteBuffer       byteBuffer  = ByteBuffer.allocate(20);
+    ByteBuffer       byteBuffer  = ByteBuffer.allocate(25);
 
 
     @Before
@@ -49,85 +49,53 @@ public class TestRamdomAccessFile {
     @Test
     public void autoWire() throws Exception {
         fileChannel.position(0);
-        int    count                 = 10;
+        int queryCount = 10;
+
         long   currentPos            = 0;
         byte[] targetArray           = new byte[50];
+        int    lineBufferSize        = 50;
+        int    readBufferSize        = 25;
         int    targetArrayActualSize = 0;
-        while ((count--) > 0) {
+        int    remained              = 0;
+        while ((queryCount--) > 0) {
             int ret = fileChannel.read(byteBuffer);
             currentPos += ret;
             byte[] bytesArray = byteBuffer.array();
-
-            if (targetArrayActualSize + ret <= targetArray.length) {
-                copyArray(bytesArray, 0, targetArray, targetArrayActualSize, ret);
-                targetArrayActualSize += ret;
-
-
-
-                int start = 0;
-                int end   = 0;
-                for (int i = 0; i < targetArray.length; i++) {
-                    if (targetArray[i] == '\n') {
-                        end = i;
-                        System.out.println("send1 "+start + "  " + end);
-                        //发送[start,end]
-//                            for (int j = start; j <= end; j++) {
-//                                System.out.print("send: " + (int) targetArray[j] + " ");
-//                            }
-                        start = end + 1;
-                    }
-                }
-                targetArrayActualSize = targetArray.length - end - 1;
-                copyArray(targetArray, end + 1, targetArray, 0, targetArrayActualSize);
-
-                for (int i = targetArrayActualSize; i < targetArray.length; i++) {
-                    targetArray[i] = 0;
-                }
-
+            int    start      = 0;
+            int    end        = 0;
+            if (targetArrayActualSize + readBufferSize < lineBufferSize) {
+                copyArray(bytesArray, 0, targetArray, targetArrayActualSize, readBufferSize);
+                targetArrayActualSize += readBufferSize;
             } else {
-                int remained = targetArray.length - targetArrayActualSize;
-                copyArray(bytesArray, 0, targetArray, targetArrayActualSize, remained);
-                targetArrayActualSize += remained;
+                copyArray(bytesArray, 0, targetArray, targetArrayActualSize, targetArray.length - targetArrayActualSize);
+                remained = -(lineBufferSize - readBufferSize - targetArrayActualSize);
+            }
+            for (int i = 0; i < lineBufferSize; i++) {
+                if (targetArray[i] == '\n') {
+                    end = i;
 
-//                if (targetArrayActualSize >= targetArray.length) {
-
-
-                    int start = 0;
-                    int end   = 0;
-                    for (int i = 0; i < targetArray.length; i++) {
-                        if (targetArray[i] == '\n') {
-                            end = i;
-                            System.out.println("send2 "+start + "  " + end);
-                            //发送[start,end]
-//                            for (int j = start; j <= end; j++) {
-//                                System.out.print("send: " + (int) targetArray[j] + " ");
-//                            }
-                            start = end + 1;
-                        }
+                    while (targetArray[start]==0){
+                        start++;
                     }
-                    targetArrayActualSize = targetArray.length - end - 1;
-                    copyArray(targetArray, end + 1, targetArray, 0, targetArrayActualSize);
+                    System.out.println("[" + start + "," + end + "]");
 
-                    for (int i = targetArrayActualSize; i < targetArray.length; i++) {
-                        targetArray[i] = 0;
-                    }
-
-                //补全剩下的
-                if (remained > 0)
-                {
-
-                    int len=bytesArray.length;
-                    for (int i = 0; i < remained; i++) {
-                       targetArray[targetArrayActualSize+i]=bytesArray[len-i-1];
-                    }
-                    targetArrayActualSize+=remained;
-                    remained=0;
+                    printArray(targetArray, start, end);
+                    start = end + 1;
 
                 }
-
-
+                copyArray(targetArray, start, targetArray, 0, lineBufferSize - start);
+                targetArrayActualSize = (lineBufferSize - start);
+                for (int j = targetArrayActualSize; j < lineBufferSize; j++) {
+                    targetArray[j] = 0;
+                }
+//                System.out.println();
             }
 
+
+            if (remained > 0) {
+                copyArray(bytesArray, 25 - remained, targetArray, targetArrayActualSize, remained);
+                targetArrayActualSize += remained;
+            }
             byteBuffer.clear();
         }
 
@@ -146,6 +114,12 @@ public class TestRamdomAccessFile {
         copyArray(bytes1, 0, bytes2, 3, 4);
         for (int i = 0; i < bytes2.length; i++) {
             System.out.println(i + " " + bytes2[i]);
+        }
+    }
+
+    public void printArray(byte[] array, int i, int j) {
+        for (int k = i; k <= j; k++) {
+            System.err.print((char) array[k]);
         }
     }
 
