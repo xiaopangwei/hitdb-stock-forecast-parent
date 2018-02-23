@@ -103,7 +103,7 @@ public class UnsafeFiller {
                     } else if (DOUBLE_CLASS.equals(classType)) {
                         byte[] doubleArray = ConvertUtils.double2Bytes((Double) fieldValue);
                         System.arraycopy(doubleArray, 0, result, offset, DOUBLE_SIZE_IN_BYTE);
-                        offset += INT_SIZE_IN_BYTE;
+                        offset += DOUBLE_SIZE_IN_BYTE;
                     } else {
                         try {
                             byte[] objArray = ((String) fieldValue).getBytes(DEFAULT_CHARSET);

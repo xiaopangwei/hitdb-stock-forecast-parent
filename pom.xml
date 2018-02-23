@@ -208,8 +208,8 @@
         <!-- https://mvnrepository.com/artifact/net.openhft/chronicle -->
         <dependency>
             <groupId>net.openhft</groupId>
-            <artifactId>chronicle</artifactId>
-            <version>3.6.4</version>
+            <artifactId>chronicle-map</artifactId>
+            <version>3.14.1</version>
         </dependency>
 
 

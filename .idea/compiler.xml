@@ -16,15 +16,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="stock-enrich-job" target="1.8" />
-      <module name="stock-enrich-lib" target="1.8" />
+      <module name="stock-enrich-job" target="1.5" />
+      <module name="stock-enrich-lib" target="1.5" />
       <module name="stock-f2k-job" target="1.8" />
-      <module name="stock-f2k-lib" target="1.8" />
+      <module name="stock-f2k-lib" target="1.5" />
       <module name="stock-forecast-algorithm" target="1.8" />
       <module name="stock-forecast-core" target="1.8" />
       <module name="stock-forecast-parent" target="1.8" />
-      <module name="stock-k2db-job" target="1.8" />
-      <module name="stock-k2db-lib" target="1.8" />
+      <module name="stock-k2db-job" target="1.5" />
+      <module name="stock-k2db-lib" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
