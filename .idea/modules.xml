@@ -3,14 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/stock-enrich-job/stock-enrich-job.iml" filepath="$PROJECT_DIR$/stock-enrich-job/stock-enrich-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stock-enrich-lib/stock-enrich-lib.iml" filepath="$PROJECT_DIR$/stock-enrich-lib/stock-enrich-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml" filepath="$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stock-f2k-lib/stock-f2k-lib.iml" filepath="$PROJECT_DIR$/stock-f2k-lib/stock-f2k-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/stock-forecast-algorithm/stock-forecast-algorithm.iml" filepath="$PROJECT_DIR$/stock-forecast-algorithm/stock-forecast-algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/stock-forecast-core/stock-forecast-core.iml" filepath="$PROJECT_DIR$/stock-forecast-core/stock-forecast-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/stock-forecast-parent.iml" filepath="$PROJECT_DIR$/stock-forecast-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/stock-k2db-job/stock-k2db-job.iml" filepath="$PROJECT_DIR$/stock-k2db-job/stock-k2db-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stock-k2db-lib/stock-k2db-lib.iml" filepath="$PROJECT_DIR$/stock-k2db-lib/stock-k2db-lib.iml" />
     </modules>
   </component>
 </project>

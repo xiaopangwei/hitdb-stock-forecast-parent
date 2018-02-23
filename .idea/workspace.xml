@@ -2,45 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e4e8e4c-6dcf-4ad2-ae71-d066d58c13fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_javapoet_1_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_algorithms_1_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_bytes_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_core_1_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_map_3_14_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_threads_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_values_1_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_wire_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ops4j_pax_url_pax_url_aether_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestChronicleMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestSerialization.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_3_6_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_compiler_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_lang_6_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_4_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/common/ConvertUtils.class" afterPath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/common/ConvertUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/model/Constant.class" afterPath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/model/Constant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/parser/UnsafeFiller.class" afterPath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/parser/UnsafeFiller.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-enrich-lib/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-enrich-lib/stock-enrich-lib.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/common/ConvertUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/model/Constant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/model/CsvFileConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/operator/CsvSourceFunction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/parser/CSVFieldType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/parser/MsgBuilderFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/parser/MsgBuilderFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/parser/SerializerHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/cn/hitdb/f2k/parser/UnsafeFiller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/classes/stock.rdconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestChronicleMap$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestChronicleMap$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestChronicleMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestRamdomAccessFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestSerialization$DemoBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestSerialization.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestUnsafe$Stub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-job/target/test-classes/cn/hitdb/f2k/TestUnsafe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-lib/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-f2k-lib/stock-f2k-lib.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/algorithm/Predictable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/message/BaseMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/message/Configuration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/message/QuotationTickMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/message/StockTickMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/message/TickMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/ml/FeatureConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/ml/FeatureVector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-forecast-core/target/classes/cn/hitdb/core/model/ml/MLConfigration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-k2db-lib/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stock-k2db-lib/stock-k2db-lib.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-enrich-job/stock-enrich-job.iml" afterPath="$PROJECT_DIR$/stock-enrich-job/stock-enrich-job.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-enrich-lib/stock-enrich-lib.iml" afterPath="$PROJECT_DIR$/stock-enrich-lib/stock-enrich-lib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/UnsafeFiller.java" afterPath="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/UnsafeFiller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml" afterPath="$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-f2k-lib/stock-f2k-lib.iml" afterPath="$PROJECT_DIR$/stock-f2k-lib/stock-f2k-lib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-algorithm/stock-forecast-algorithm.iml" afterPath="$PROJECT_DIR$/stock-forecast-algorithm/stock-forecast-algorithm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-core/stock-forecast-core.iml" afterPath="$PROJECT_DIR$/stock-forecast-core/stock-forecast-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-core/pom.xml" afterPath="$PROJECT_DIR$/stock-forecast-core/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-forecast-parent.iml" afterPath="$PROJECT_DIR$/stock-forecast-parent.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-k2db-job/stock-k2db-job.iml" afterPath="$PROJECT_DIR$/stock-k2db-job/stock-k2db-job.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock-k2db-lib/stock-k2db-lib.iml" afterPath="$PROJECT_DIR$/stock-k2db-lib/stock-k2db-lib.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSerialization.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSerialization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestSerialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="142" column="29" lean-forward="true" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
+            <state relative-caret-position="497">
+              <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestUnsafe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="39" />
+              <caret line="25" column="39" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -117,46 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Marshallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-wire/1.9.5/chronicle-wire-1.9.5.jar!/net/openhft/chronicle/wire/Marshallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WireType.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-wire/1.9.5/chronicle-wire-1.9.5.jar!/net/openhft/chronicle/wire/WireType.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="402" column="62" lean-forward="false" selection-start-line="402" selection-start-column="62" selection-end-line="402" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChronicleMapBuilder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-map/3.14.1/chronicle-map-3.14.1.jar!/net/openhft/chronicle/map/ChronicleMapBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BytesMarshaller.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-bytes/1.9.3/chronicle-bytes-1.9.3.jar!/net/openhft/chronicle/bytes/BytesMarshaller.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UnsafeFiller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/UnsafeFiller.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,6 +128,55 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-forecast-core/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="239" column="12" lean-forward="false" selection-start-line="239" selection-start-column="12" selection-end-line="239" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stock-f2k-job/pom.xml">
+          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stock-f2k-job.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,6 +201,9 @@
     <replaceStrings>
       <replace>JMatrix</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/stock-enrich-lib</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -234,7 +249,6 @@
         <option value="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/operator/CsvSourceFunction.java" />
         <option value="$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestRamdomAccessFile.java" />
         <option value="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/BeanFieldConverter.java" />
-        <option value="$PROJECT_DIR$/stock-forecast-core/pom.xml" />
         <option value="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/TupleFieldConverter.java" />
         <option value="$PROJECT_DIR$/stock-f2k-job/pom.xml" />
         <option value="$PROJECT_DIR$/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/TickMessage.java" />
@@ -249,9 +263,10 @@
         <option value="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/common/ConvertUtils.java" />
         <option value="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/model/Constant.java" />
         <option value="$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/UnsafeFiller.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestChronicleMap.java" />
         <option value="$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestSerialization.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-forecast-core/pom.xml" />
       </list>
     </option>
   </component>
@@ -271,7 +286,36 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-f2k-job" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-f2k-job" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-f2k-job" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-f2k-job" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="cn.hitdb:stock-forecast-core:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="stock-forecast-algorithm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-forecast-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-forecast-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -417,46 +461,6 @@
               <item name="stock-f2k-job" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="f2k" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-f2k-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="f2k" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-f2k-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="f2k" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-f2k-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="f2k" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-f2k-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -496,62 +500,6 @@
             </path>
             <path>
               <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock-forecast-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="stock-forecast-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock-forecast-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -567,7 +515,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20689656" />
     <property name="SearchEverywhereHistoryKey" value="Marshall&#9;PSI&#9;JAVA://net.openhft.chronicle.wire.Marshallable&#10;ByteMarsha&#9;PSI&#9;JAVA://net.openhft.chronicle.bytes.BytesMarshaller&#10;Unsafe&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class&#10;Date&#9;PSI&#9;JAVA://java.util.Date&#10;MultiMap&#9;PSI&#9;JAVA://com.google.common.collect.Multimap&#10;Seriz&#9;PSI&#9;JAVA://com.sun.org.apache.xml.internal.serializer.utils.SerializerMessages_zh_CN&#10;Stock&#9;FILE&#9;file:///Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/StockTickMessage.java" />
@@ -853,7 +801,7 @@
       <workItem from="1519222593366" duration="19567000" />
       <workItem from="1519306623469" duration="835000" />
       <workItem from="1519307851037" duration="133000" />
-      <workItem from="1519308062086" duration="28186000" />
+      <workItem from="1519308062086" duration="29114000" />
     </task>
     <task id="LOCAL-00001" summary="新添加LR算法">
       <created>1518977184269</created>
@@ -905,7 +853,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76693000" />
+    <option name="totallyTimeSpent" value="77621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -919,15 +867,16 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21030043" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27860695" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1380597" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125894" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27736318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49751243" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25822604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -940,7 +889,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1012,16 +960,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestRamdomAccessFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="74" column="13" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar!/au/com/bytecode/opencsv/bean/CsvToBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1130,17 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock-f2k-job/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1310,7 +1237,7 @@
         <state relative-caret-position="313">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1331,43 +1258,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock-forecast-core/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="203" column="21" lean-forward="false" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="840" column="33" lean-forward="true" selection-start-line="840" selection-start-column="33" selection-end-line="840" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/UnsafeFiller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="105" column="53" lean-forward="false" selection-start-line="105" selection-start-column="53" selection-end-line="105" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,7 +1277,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-map/3.14.1/chronicle-map-3.14.1.jar!/net/openhft/chronicle/map/ChronicleMapBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1426,7 +1321,7 @@
     <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="39" />
+          <caret line="25" column="39" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1441,11 +1336,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/test/java/cn/hitdb/f2k/TestSerialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="142" column="29" lean-forward="true" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
+        <state relative-caret-position="497">
+          <caret line="142" column="29" lean-forward="false" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/UnsafeFiller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="105" column="53" lean-forward="false" selection-start-line="105" selection-start-column="53" selection-end-line="105" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-f2k-job/stock-f2k-job.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-forecast-core/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="239" column="12" lean-forward="false" selection-start-line="239" selection-start-column="12" selection-end-line="239" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-f2k-job/pom.xml">
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1501,7 +1447,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>stock-enrich-job</last-edited>
+          <last-edited>stock-k2db-job</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
