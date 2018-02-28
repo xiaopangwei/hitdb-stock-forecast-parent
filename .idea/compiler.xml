@@ -9,6 +9,7 @@
         <module name="stock-enrich-job" />
         <module name="stock-f2k-job" />
         <module name="stock-forecast-algorithm" />
+        <module name="stock-forecast-core" />
         <module name="stock-k2db-job" />
       </profile>
     </annotationProcessing>

@@ -1,0 +1,9 @@
+cn/hitdb/f2k/model/CsvFileConfig.class
+cn/hitdb/f2k/parser/MsgBuilderFactory.class
+cn/hitdb/f2k/parser/SerializerHelper.class
+cn/hitdb/f2k/common/ConvertUtils.class
+cn/hitdb/f2k/parser/CSVFieldType.class
+cn/hitdb/f2k/parser/MsgBuilderFactory$1.class
+cn/hitdb/f2k/model/Constant.class
+cn/hitdb/f2k/operator/CsvSourceFunction.class
+cn/hitdb/f2k/parser/UnsafeFiller.class

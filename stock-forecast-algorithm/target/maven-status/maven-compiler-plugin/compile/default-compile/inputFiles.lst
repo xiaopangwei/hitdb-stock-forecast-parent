@@ -1,0 +1,9 @@
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/feature/extraction/train/SVDAlgorithm.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/feature/normalization/model/ZScoreConfig.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/model/LRConfig.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticFunctionSelector.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/feature/extraction/model/JMatrix.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/feature/extraction/model/SingularValueDecompositionConfig.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/feature/normalization/train/ZScoreAlgorithm.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/classification/train/LogisticRegressionAlgorithm.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-algorithm/src/main/java/cn/hitdb/forecast/algorithm/feature/extraction/train/MatrixDecomposition.java

@@ -1,0 +1,8 @@
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/SerializerHelper.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/model/Constant.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/model/CsvFileConfig.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/CSVFieldType.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/UnsafeFiller.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/parser/MsgBuilderFactory.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/operator/CsvSourceFunction.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-f2k-job/src/main/java/cn/hitdb/f2k/common/ConvertUtils.java

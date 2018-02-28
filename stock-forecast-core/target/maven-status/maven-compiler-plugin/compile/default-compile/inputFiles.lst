@@ -1,0 +1,9 @@
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/StockTickMessage.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureVector.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/Configuration.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/FeatureConfig.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/QuotationTickMessage.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/TickMessage.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/algorithm/Predictable.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/message/BaseMessage.java
+/Users/weihuang/IDEAWorkPlace/stock-forecast-parent/stock-forecast-core/src/main/java/cn/hitdb/core/model/ml/MLConfigration.java
