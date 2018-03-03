@@ -1,6 +1,6 @@
 package cn.hitdb.enrich.f2k;
 
-import cn.hitdb.enrich.core.model.message.StockTickMessage;
+import cn.hitdb.forecast.core.model.message.StockTickMessage;
 import org.junit.Before;
 import org.junit.Test;
 import sun.misc.Unsafe;

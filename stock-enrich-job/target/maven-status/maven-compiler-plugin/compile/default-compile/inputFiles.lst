@@ -1,0 +1,8 @@
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/datastore/StaticDataProxy.java
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/utils/StaticDataStoreUtils.java
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/model/EnrichConfig.java
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/datastore/ChronicleDataStore.java
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/model/StaticDataField.java
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/model/StaticTableSchema.java
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/DataEnricher.java
+/Users/weihuang/stock-forecast/hitdb-stock-forecast-parent/stock-enrich-job/src/main/java/cn/hitdb/enrich/datastore/BaseDataStore.java

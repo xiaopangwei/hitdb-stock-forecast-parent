@@ -1,0 +1,8 @@
+cn/hitdb/enrich/datastore/ChronicleDataStore.class
+cn/hitdb/enrich/model/EnrichConfig.class
+cn/hitdb/enrich/datastore/BaseDataStore.class
+cn/hitdb/enrich/utils/StaticDataStoreUtils.class
+cn/hitdb/enrich/model/StaticDataField.class
+cn/hitdb/enrich/DataEnricher.class
+cn/hitdb/enrich/model/StaticTableSchema.class
+cn/hitdb/enrich/datastore/StaticDataProxy.class

@@ -1,7 +1,7 @@
 package cn.hitdb.enrich.f2k.parser;
 
-import cn.hitdb.enrich.core.model.message.BaseMessage;
-import cn.hitdb.enrich.core.model.message.TickMessage;
+import cn.hitdb.forecast.core.model.message.BaseMessage;
+import cn.hitdb.forecast.core.model.message.TickMessage;
 import cn.hitdb.enrich.f2k.common.ConvertUtils;
 import cn.hitdb.enrich.f2k.model.Constant;
 
