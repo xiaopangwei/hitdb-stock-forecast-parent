@@ -1,10 +1,10 @@
-marketCode           STR
-securityCode         STR
-matchTime            DATE
+marketCode           STR(2）
+securityCode         STR(6）
+matchTime            STR(19)
 matchTickCount       REAL
 matchTickQuantity    INT
 matchTickAmount      INT
-side                 STR
+side                 STR(1)
 buyPrice1            REAL
 buyPrice2            REAL
 buyPrice3            REAL

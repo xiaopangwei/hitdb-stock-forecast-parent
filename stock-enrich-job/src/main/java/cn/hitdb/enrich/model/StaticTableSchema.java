@@ -8,7 +8,7 @@ import java.io.Serializable;
  *
  * @author weihuang
  * @date 2018/2/28
- * @time 下午4:00
+ * @time 下午4:00g
  */
 public class StaticTableSchema implements Serializable {
     private StaticDataField[] fields;
